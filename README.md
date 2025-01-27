@@ -7,6 +7,7 @@ Link do Tutorial Utilizado:
  * Peguei Ideias: https://www.youtube.com/watch?v=tafq9Zfdgpk&t=309s
 
 Personalizações: CSS
+
 Banco de Dados utilizado: MySQL
 
 Todas as etapas necessárias para colocar o aplicativo em funcionamento.
