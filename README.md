@@ -17,7 +17,6 @@ execute: bundle install
 
 ## Pré-requisitos
 * Docker
-* Docker Compose
 
 ## Versão
 * ruby 3.4.1
