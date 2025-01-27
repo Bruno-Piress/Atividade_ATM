@@ -1,0 +1,15 @@
+<h1>Posts do Blog</h1>
+
+
+<div class="posts">
+  <% @posts.each do |post| %>
+    <article class="post">
+      <h2><%= link_to post.title, post_path(post) %></h2>
+      <p><%= truncate(post.content, length: 150) %></p>
+      <div class="post-meta">
+        <span>Postado em: <%= post.created_at.strftime("%d/%m/%Y às %H:%M") %></span>
+        <%= link_to 'Ler Mais', post_path(post), class: 'read-more' %>
+      </div>
+    </article>
+  <% end %>
+</div>

@@ -1,0 +1,14 @@
+<article class="post">
+  <h1><%= @post.title %></h1>
+  <div class="post-meta">
+    <span>Postado em: <%= @post.created_at.strftime("%d/%m/%Y às %H:%M") %></span>
+  </div>
+  <div class="post-content">
+    <%= simple_format(@post.content) %>
+  </div>
+  <div class="post-actions">
+    <%= link_to 'Editar', edit_post_path(@post), class: 'btn-edit' %>
+    <%= button_to 'Excluir', post_path(@post), method: :delete, data: { turbo_confirm: 'Tem certeza que deseja excluir este post?' }, class: 'btn-delete' %>
+    <%= link_to 'Voltar para Posts', posts_path, class: 'btn-back' %>
+  </div>
+</article>

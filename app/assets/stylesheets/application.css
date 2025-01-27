@@ -1,0 +1,200 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #2c3e50;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  .post {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+    padding: 20px;
+    background-color: #2c3e5025;
+    border-radius: 10px; /* Deixa o fundo redondo */
+  }
+  
+  
+  .post:last-child {
+    border-bottom: none;
+  }
+  
+  .post-meta {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+  }
+  
+  .read-more, .btn-new, .btn-edit, .btn-delete, .btn-back, .btn-view {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more, .btn-view {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .read-more:hover, .btn-view:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn-new {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .btn-new:hover {
+    background-color: #27ae60;
+  }
+  
+  .btn-edit {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
+  .btn-edit:hover {
+    background-color: #d35400;
+  }
+  
+  .btn-delete {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c0392b;
+  }
+  
+  .btn-back {
+    background-color: #95a5a6;
+    color: #fff;
+  }
+  
+  .btn-back:hover {
+    background-color: #7f8c8d;
+  }
+  
+  .post-actions {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+  }
+  
+  .post-actions .btn-edit,
+  .post-actions .btn-delete,
+  .post-actions .btn-back {
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .post-actions .btn-delete {
+    background-color: #dc3545;
+  }
+  
+  .post-actions .btn-back {
+    background-color: #6c757d;
+  }
+  
+  .post-actions .btn-edit:hover,
+  .post-actions .btn-delete:hover,
+  .post-actions .btn-back:hover {
+    background-color: #0056b3;
+  }
+  .post-actions .btn-delete:hover {
+    background-color: #c82333;
+  }
+  .post-actions .btn-back:hover {
+    background-color: #5a6268;
+  }
+  
+  
+  form .field {
+    margin-bottom: 1rem;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #27ae60;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+  }
+  
+  .notice {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
