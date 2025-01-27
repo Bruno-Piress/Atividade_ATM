@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Nome: Bruno Pires de Souza
+ 
+Link do Tutorial Utilizado: 
+ * Peguei a logica: https://www.youtube.com/watch?v=z4fCLSeAjcA&t=334s
+ * Peguei Ideias: https://www.youtube.com/watch?v=tafq9Zfdgpk&t=309s
 
-Things you may want to cover:
+Personalizações: CSS
+ 
+Banco de Dados utilizado: MySQL
 
-* Ruby version
+Todas as etapas necessárias para colocar o aplicativo em funcionamento.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Versão Ruby
+ruby 3.4.1 
