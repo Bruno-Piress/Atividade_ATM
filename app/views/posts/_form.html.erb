@@ -21,6 +21,8 @@
   </div>
 
   <div class="actions">
-    <%= form.submit post.new_record? ? 'Criar Post' : 'Atualizar Post' %>
+    <%= form.submit post.new_record? ? 'Criar Post' : 'Atualizar Post' %> |
+    <%= link_to 'Visualizar', @post, class: 'btn-view' %> |
+    <%= link_to 'Voltar para Posts', posts_path, class: 'btn-back' %>
   </div>
 <% end %>
